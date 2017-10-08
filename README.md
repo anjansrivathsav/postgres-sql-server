@@ -6,7 +6,7 @@ The name of the database we would create would be catalog and initially doesnot 
 
 setting up the process in a sequential order
 
-#STEP-1
+# STEP-1
 To start a new server on digital ocean,create a new droplet and do as the following
 
 1.Distribution - Ubuntu 16.04 x64
@@ -21,5 +21,7 @@ To start a new server on digital ocean,create a new droplet and do as the follow
 
 6.click on new ssh key and paste the contents in the directory /home/USER_NAME/.ssh/catalog_root.pub into it 
 
+7.keep number of droplets as one.
 
+8.Finish.click on create button
 
