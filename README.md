@@ -197,6 +197,7 @@ now it should have the following commands
         Order allow,deny 
         
         Allow from all
+  
     </Directory>
     
   </VirtualHost>
