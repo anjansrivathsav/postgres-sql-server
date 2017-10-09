@@ -187,20 +187,21 @@ sudo nano /etc/apache2/sites-available/catalog.conf
 
 now it should have the following commands
 
+<VirtualHost *80>
 
-<VirtualHost *:80>
-    ServerName 139.59.70.89
-
-    WSGIScriptAlias / /var/www/catalog/wsgi.py
-
-    <Directory /var/www/catalog>
-        Order allow,deny
-       
-       Allow from all
-    
+   ServerName 139.59.70.89
+   
+   WSGISrciptsAlias / / var/www/catalog/wsgi.py
+   
+   <Directory /var/www/catalog>
+        Order allow,deny 
+        
+        Allow from all
     </Directory>
+    
+  </VirtualHost>
+   
 
-</VirtualHost>
 
 
 
