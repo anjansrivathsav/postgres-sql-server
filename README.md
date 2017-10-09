@@ -101,10 +101,15 @@ find and change the port  22 to 2200 and then restart the ssh service by command
  on the terminal run the commands orderly  
  
 su - grader
+
 mkdir .ssh
+
 chmod 700 .ssh
+
 nano .ssh/authorized_keys
+
 # paste the contents and save the file
+
 chmod 644 .ssh/authorized_keys
 
 now restart the ssh service and try to login as grader by this command 
@@ -226,7 +231,6 @@ This is so because of the callback of the google auth doesn't work on bare ip .I
 
 
 # reference
-
 
 http://stackoverflow.com/
 
