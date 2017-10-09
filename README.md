@@ -194,8 +194,11 @@ now it should have the following commands
 
     <Directory /var/www/catalog>
         Order allow,deny
-        Allow from all
+       
+       Allow from all
+    
     </Directory>
+
 </VirtualHost>
 
 If you have configured you ip with any domain name then change the ip here and write domain name which has been configured
