@@ -94,7 +94,7 @@ find and change the port  22 to 2200 and then restart the ssh service by command
  
  now setting up the ssh key pair for grader
  
- follow th step-1 to create the ssh-key and at /home/USER_NAME/.ssh/catalog_grader 
+ follow th step-1 to create the ssh-key and at ~/.ssh/catalog_grader
  
  copy the contents of catalog_grader.pub file
  
