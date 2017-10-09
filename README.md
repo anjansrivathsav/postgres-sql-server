@@ -194,9 +194,11 @@ now it should have the following commands
    WSGISrciptsAlias / / var/www/catalog/wsgi.py
    
    <Directory /var/www/catalog>
-        Order allow,deny 
+        
+        Order allow ,deny 
         
         Allow from all
+
   
     </Directory>
     
